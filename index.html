@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trattoria Sostanza: Firenze, dal 1869</title>
+<meta name="description" content="Trattoria Sostanza, Firenze: dal 1869, petto di pollo al burro, tortino di carciofi e bistecca alla fiorentina. Menu scritto a mano ogni giorno. Prenotazioni solo per telefono: 055 212691.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#carta" data-i18n="skip">Vai alla carta</a>
+
+<!-- ============ TOP STRIP ============ -->
+<div class="topstrip">
+  <span class="topstrip-item" data-i18n="topAddr">Via del Porcellana 25/R · Firenze</span>
+  <span class="topstrip-item topstrip-hours" data-i18n="topHours">Lun-Ven 12:30-14:00, 19:30-21:45</span>
+  <a class="topstrip-tel" href="tel:+39055212691">055 212691</a>
+</div>
+
+<!-- ============ MASTHEAD ============ -->
+<header class="masthead" id="top">
+  <a class="wordmark" href="#top" aria-label="Trattoria Sostanza">
+    <span class="wordmark-main">Trattoria Sostanza</span>
+    <span class="wordmark-sub" data-i18n="wordmarkSub">Firenze · dal 1869</span>
+  </a>
+  <nav class="nav-links" aria-label="Navigazione principale">
+    <a href="#firmati" data-i18n="navSig">I firmati</a>
+    <a href="#carta" data-i18n="navMenu">La carta</a>
+    <a href="#sala" data-i18n="navRoom">La sala</a>
+    <a href="#prenotare" data-i18n="navBook">Prenotare</a>
+    <a href="#visita" data-i18n="navVisit">Visita</a>
+  </nav>
+  <div class="nav-actions">
+    <div class="lang-toggle" role="group" aria-label="Language / Lingua">
+      <button type="button" class="lang-btn is-active" data-lang="it" aria-pressed="true">IT</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn btn-nav" href="tel:+39055212691">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>055 212691</span>
+    </a>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO: LA CARTA DI OGGI ============ -->
+<section class="hero" aria-label="Trattoria Sostanza">
+  <div class="hero-copy">
+    <p class="hand-note hero-hand reveal" data-i18n="heroHand">la carta di oggi, scritta a mano</p>
+    <h1 class="hero-title reveal" data-i18n="heroTitle">Il pollo al burro, come nel 1869.</h1>
+    <p class="hero-sub reveal" data-i18n="heroSub">A due passi da Santa Maria Novella, una trattoria che non è mai cambiata: tavoli di marmo da condividere, il menu scritto a mano ogni giorno e il petto di pollo al burro che ha fatto la sua leggenda.</p>
+    <div class="hero-ctas reveal">
+      <a class="btn btn-primary" href="tel:+39055212691" data-i18n="heroCtaCall">Prenota per telefono</a>
+      <a class="btn btn-ghost" href="#carta" data-i18n="heroCtaMenu">Vedi la carta</a>
+    </div>
+    <p class="hero-rating reveal"><span class="star" aria-hidden="true">★</span> <span data-i18n="heroRating">4,5 su Google · oltre 1.100 recensioni</span></p>
+  </div>
+
+  <div class="hero-stage" id="heroStage">
+    <div class="sheet sheet-back" data-depth="0.05" aria-hidden="true"></div>
+    <div class="sheet sheet-carta" data-depth="0.10" aria-hidden="true">
+      <p class="carta-head" data-i18n="cartaHead">Oggi in carta</p>
+      <ul class="carta-mini">
+        <li><span data-i18n="miniDish1">Petto di pollo al burro</span><span class="dots"></span></li>
+        <li><span data-i18n="miniDish2">Tortino di carciofi</span><span class="dots"></span></li>
+        <li><span data-i18n="miniDish3">Bistecca alla fiorentina</span><span class="dots"></span></li>
+      </ul>
+      <p class="hand-note carta-hand" data-i18n="cartaHand">e il resto, a penna, in sala</p>
+    </div>
+    <figure class="hero-photo-card" data-depth="0.16" id="heroCard">
+      <figcaption>
+        <span data-i18n="heroCaption">Petto di pollo al burro, nel rame</span>
+        <span class="hand-note" data-i18n="heroCaptionHand">il piatto della casa</span>
+      </figcaption>
+      <div class="hero-frame">
+        <img class="hero-img" id="heroImg" src="assets/hero-pollo.webp" alt="Petto di pollo al burro sfrigolante nella padella di rame" width="1920" height="1280" fetchpriority="high">
+      </div>
+    </figure>
+    <div class="stamp" data-depth="-0.07" aria-hidden="true"><span data-i18n="stampText">dal 1869</span></div>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="trust" aria-label="In breve">
+  <ul class="trust-list">
+    <li class="reveal"><strong>4,5 ★</strong><span data-i18n="trustRating">su Google</span></li>
+    <li class="reveal"><strong data-i18n="trustReviewsN">Oltre 1.100</strong><span data-i18n="trustReviews">recensioni Google</span></li>
+    <li class="reveal"><strong data-i18n="trustSinceN">Dal 1869</strong><span data-i18n="trustSince">nella stessa via</span></li>
+    <li class="reveal"><strong data-i18n="trustPhoneN">Solo telefono</strong><span data-i18n="trustPhone">per prenotare</span></li>
+  </ul>
+</section>
+
+<!-- ============ I FIRMATI ============ -->
+<section class="section firmati" id="firmati">
+  <h2 class="section-title reveal" data-i18n="sigTitle">Tre piatti, una firma.</h2>
+  <p class="section-intro reveal" data-i18n="sigIntro">Il menu cambia ogni giorno, scritto a mano. Ma la casa è famosa soprattutto per tre piatti: quelli che i fiorentini ordinano da generazioni.</p>
+  <div class="sig-grid">
+    <article class="sig-card reveal">
+      <figure class="sig-frame"><img src="assets/hero-pollo.webp" alt="Petto di pollo al burro nella padella di rame" width="1920" height="1280" loading="lazy"></figure>
+      <p class="hand-note sig-hand" data-i18n="sig1Hand">il leggendario</p>
+      <h3 data-i18n="sig1Name">Petto di pollo al burro</h3>
+      <p data-i18n="sig1Text">Prima sulla brace, poi infarinato, passato nell'uovo e finito in una padella di rame colma di burro fuso. In tavola arriva ancora sfrigolante, nel suo burro brunito.</p>
+    </article>
+    <article class="sig-card reveal">
+      <figure class="sig-frame"><img src="assets/tortino.webp" alt="Tortino di carciofi dorato" width="1920" height="1280" loading="lazy"></figure>
+      <p class="hand-note sig-hand" data-i18n="sig2Hand">di stagione</p>
+      <h3 data-i18n="sig2Name">Tortino di carciofi</h3>
+      <p data-i18n="sig2Text">Carciofi e uova in un tortino dorato, quasi una frittata: il secondo piatto simbolo della casa. C'è solo quando i carciofi sono di stagione.</p>
+    </article>
+    <article class="sig-card reveal">
+      <figure class="sig-frame"><img src="assets/bistecca.webp" alt="Bistecca alla fiorentina tagliata sul tagliere" width="1920" height="1280" loading="lazy"></figure>
+      <p class="hand-note sig-hand" data-i18n="sig3Hand">alla brace</p>
+      <h3 data-i18n="sig3Name">Bistecca alla fiorentina</h3>
+      <p data-i18n="sig3Text">Grande e al sangue, come vuole la tradizione fiorentina, cotta sulla brace e salata al momento. Da condividere, come i tavoli.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ LA CARTA ============ -->
+<section class="section carta" id="carta">
+  <h2 class="section-title reveal" data-i18n="menuTitle">Scritta a mano, ogni giorno.</h2>
+  <p class="section-intro reveal" data-i18n="menuIntro">La carta cambia con il mercato e con la stagione: questa è la spina dorsale, i piatti che tornano da sempre. I prezzi sono sulla carta del giorno, in sala.</p>
+
+  <div class="carta-sheet reveal">
+    <div class="carta-group">
+      <h3 class="carta-group-title" data-i18n="groupStart">Per cominciare</h3>
+      <ul class="dish-list">
+        <li><div><h4 data-i18n="d1Name">Finocchiona e salumi toscani</h4><p data-i18n="d1Text">Il salame al finocchietto e i salumi, per aprire come si deve.</p></div></li>
+        <li><div><h4 data-i18n="d2Name">Fagioli all'olio</h4><p data-i18n="d2Text">Fagioli cotti piano, con olio buono: la Toscana più semplice.</p></div></li>
+        <li><div><h4 data-i18n="d3Name">Tortino di carciofi</h4><p data-i18n="d3Text">Carciofi e uova, dorato in forno. Solo di stagione.</p></div></li>
+      </ul>
+    </div>
+    <div class="carta-group">
+      <h3 class="carta-group-title" data-i18n="groupFirst">I primi</h3>
+      <ul class="dish-list">
+        <li><div><h4 data-i18n="d4Name">Tortellini in brodo</h4><p data-i18n="d4Text">Nel brodo ricco della gallina bollita: una delle ultime cucine a farlo ancora così.</p></div></li>
+        <li><div><h4 data-i18n="d5Name">Penne al ragù</h4><p data-i18n="d5Text">Al sugo di carne, intenso e casalingo.</p></div></li>
+      </ul>
+    </div>
+    <div class="carta-group">
+      <h3 class="carta-group-title" data-i18n="groupSecond">I secondi</h3>
+      <ul class="dish-list">
+        <li><div><h4 data-i18n="d6Name">Petto di pollo al burro</h4><p data-i18n="d6Text">Il piatto simbolo: brace, poi burro fuso nel rame. Sfrigolante.</p></div></li>
+        <li><div><h4 data-i18n="d7Name">Bistecca alla fiorentina</h4><p data-i18n="d7Text">Grande, alla brace, al sangue.</p></div></li>
+        <li><div><h4 data-i18n="d8Name">Gallina bollita</h4><p data-i18n="d8Text">La gallina del brodo, bollita come una volta.</p></div></li>
+        <li><div><h4 data-i18n="d9Name">Trippa</h4><p data-i18n="d9Text">Per chi cerca la Firenze più vera.</p></div></li>
+      </ul>
+    </div>
+    <div class="carta-group">
+      <h3 class="carta-group-title" data-i18n="groupSweet">Per finire</h3>
+      <ul class="dish-list">
+        <li><div><h4 data-i18n="d10Name">Torta di meringa e fragole</h4><p data-i18n="d10Text">Meringa leggera e fragole: il finale che tutti ricordano.</p></div></li>
+      </ul>
+    </div>
+    <p class="hand-note carta-foot-note" data-i18n="menuHand">il menu del giorno è scritto a mano, in sala</p>
+  </div>
+</section>
+
+<!-- ============ IL RITO: COPPER PAN BAND ============ -->
+<section class="pan-band" aria-label="Il rito del pollo al burro">
+  <div class="pan-frame" aria-hidden="true">
+    <img class="pan-img" id="panImg" src="assets/hero-pollo.webp" alt="" width="1920" height="1280" loading="lazy">
+  </div>
+  <div class="pan-copy">
+    <h2 class="reveal" data-i18n="panTitle">Finito nel burro, sulla brace.</h2>
+    <p class="reveal" data-i18n="panText">Il petto di pollo passa prima sulla brace. Poi viene infarinato, passato nell'uovo e finito in una piccola padella di rame colma di burro fuso, ancora sulla brace. In tavola arriva così: sfrigolante, nel suo burro brunito, da raccogliere con il pane.</p>
+  </div>
+</section>
+
+<!-- ============ LA SALA ============ -->
+<section class="section sala" id="sala">
+  <div class="sala-grid">
+    <div class="sala-copy">
+      <h2 class="section-title reveal" data-i18n="roomTitle">Piastrelle bianche, tavoli di marmo.</h2>
+      <p class="reveal" data-i18n="roomText1">Pareti di piastrelle bianche coperte di vecchie fotografie, tavoli di marmo da condividere con chi capita accanto, sedie di legno tutte diverse.</p>
+      <p class="reveal" data-i18n="roomText2">La sala è piccola e quasi nulla è cambiato dal 1869. È questo, da sempre, il lusso di Sostanza: non dover cambiare.</p>
+    </div>
+    <figure class="sala-photo reveal">
+      <div class="sala-frame"><img src="assets/sala.webp" alt="La sala: piastrelle bianche, fotografie antiche e tavoli di marmo" width="1920" height="1280" loading="lazy"></div>
+      <figcaption class="hand-note" data-i18n="roomCaption">la sala, com'è sempre stata</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery" aria-label="Galleria">
+  <h2 class="section-title reveal" data-i18n="galTitle">I piatti, da vicino.</h2>
+  <p class="hand-note gal-hand reveal" data-i18n="galHand">scorri le stampe</p>
+  <div class="gallery-track" id="galleryTrack">
+    <figure class="g-card"><div class="g-frame"><img src="assets/hero-pollo.webp" alt="Petto di pollo al burro nel rame" width="1920" height="1280" loading="lazy"></div><figcaption data-i18n="g1Cap">Pollo al burro, nel rame</figcaption></figure>
+    <figure class="g-card"><div class="g-frame"><img src="assets/tortino.webp" alt="Tortino di carciofi" width="1920" height="1280" loading="lazy"></div><figcaption data-i18n="g2Cap">Tortino di carciofi</figcaption></figure>
+    <figure class="g-card"><div class="g-frame"><img src="assets/bistecca.webp" alt="Bistecca alla fiorentina" width="1920" height="1280" loading="lazy"></div><figcaption data-i18n="g3Cap">Bistecca alla fiorentina</figcaption></figure>
+    <figure class="g-card"><div class="g-frame"><img src="assets/tortellini.webp" alt="Tortellini in brodo" width="1920" height="1280" loading="lazy"></div><figcaption data-i18n="g4Cap">Tortellini in brodo</figcaption></figure>
+    <figure class="g-card"><div class="g-frame"><img src="assets/sala.webp" alt="La sala della trattoria" width="1920" height="1280" loading="lazy"></div><figcaption data-i18n="g5Cap">La sala</figcaption></figure>
+    <figure class="g-card"><div class="g-frame"><img src="assets/meringa.webp" alt="Torta di meringa e fragole" width="1920" height="1280" loading="lazy"></div><figcaption data-i18n="g6Cap">Meringa e fragole</figcaption></figure>
+  </div>
+</section>
+
+<!-- ============ PRENOTARE ============ -->
+<section class="section prenotare" id="prenotare">
+  <h2 class="section-title reveal" data-i18n="bookTitle">Si prenota solo per telefono.</h2>
+  <p class="section-intro reveal" data-i18n="bookIntro">Come nel 1869: niente app, niente moduli. Una telefonata, e il tavolo è vostro.</p>
+  <ol class="steps">
+    <li class="step reveal">
+      <span class="step-n" aria-hidden="true">1</span>
+      <h3 data-i18n="step1Title">Telefonate</h3>
+      <p data-i18n="step1Text">Le prenotazioni si prendono solo al telefono. La trattoria non ha un indirizzo email: se ne trovate uno a suo nome, non è della casa.</p>
+    </li>
+    <li class="step reveal">
+      <span class="step-n" aria-hidden="true">2</span>
+      <h3 data-i18n="step2Title">Con anticipo</h3>
+      <p data-i18n="step2Text">La sala è piccola e si riempie in fretta: meglio chiamare con qualche giorno di anticipo, specie in alta stagione.</p>
+    </li>
+    <li class="step reveal">
+      <span class="step-n" aria-hidden="true">3</span>
+      <h3 data-i18n="step3Title">Due turni la sera</h3>
+      <p data-i18n="step3Text">Il servizio serale si svolge in due turni, come da tradizione: l'orario esatto si concorda al telefono.</p>
+    </li>
+  </ol>
+  <div class="book-cta reveal">
+    <a class="btn btn-primary btn-big" href="tel:+39055212691"><span data-i18n="bookCta">Chiama ora:</span>&nbsp;055 212691</a>
+    <p class="hand-note" data-i18n="bookHand">risponde la casa, non un centralino</p>
+  </div>
+</section>
+
+<!-- ============ VISITA ============ -->
+<section class="section visita" id="visita">
+  <h2 class="section-title reveal" data-i18n="visitTitle">A due passi da Santa Maria Novella.</h2>
+  <div class="visit-grid">
+    <div class="visit-card reveal">
+      <h3 data-i18n="visitAddrTitle">Dove</h3>
+      <p data-i18n="visitAddr">Trattoria Sostanza<br>Via del Porcellana 25/R<br>50123 Firenze</p>
+      <p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Trattoria+Sostanza+Via+del+Porcellana+25R+Firenze" target="_blank" rel="noopener" data-i18n="visitDirections">Indicazioni stradali</a></p>
+      <p><a class="text-link" href="https://instagram.com/trattoriasostanzafirenze" target="_blank" rel="noopener">Instagram · @trattoriasostanzafirenze</a></p>
+    </div>
+    <div class="visit-card reveal">
+      <h3 data-i18n="visitHoursTitle">Orari</h3>
+      <table class="hours-table">
+        <tbody>
+          <tr><th scope="row" data-i18n="hoursWeek">Lunedì-Venerdì</th><td>12:30-14:00 · 19:30-21:45</td></tr>
+          <tr><th scope="row" data-i18n="hoursSat">Sabato</th><td data-i18n="hoursClosed1">Chiuso</td></tr>
+          <tr><th scope="row" data-i18n="hoursSun">Domenica</th><td data-i18n="hoursClosed2">Chiuso</td></tr>
+        </tbody>
+      </table>
+      <p class="hours-note" data-i18n="hoursNote">Orari secondo il profilo Google della trattoria: per sicurezza, confermate al telefono.</p>
+    </div>
+    <div class="visit-card reveal">
+      <h3 data-i18n="visitCallTitle">Telefono</h3>
+      <p data-i18n="visitCallText">Per prenotare e per ogni informazione: è l'unico canale della casa.</p>
+      <p><a class="btn btn-primary" href="tel:+39055212691">055 212691</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <p class="footer-mark">Trattoria Sostanza</p>
+  <p class="footer-line" data-i18n="footerLine">Via del Porcellana 25/R, 50123 Firenze, 055 212691</p>
+  <p class="footer-note" data-i18n="footerNote">Pagina dimostrativa non ufficiale, realizzata come concept. Le fotografie sono immagini d'atmosfera generate. Fatti, piatti e orari dalle schede pubbliche della trattoria (novembre 2026).</p>
+</footer>
+
+<!-- ============ STICKY MOBILE BAR ============ -->
+<nav class="mobile-bar" aria-label="Azioni rapide">
+  <a href="tel:+39055212691" class="mb-call">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span data-i18n="mbCall">Chiama</span>
+  </a>
+  <a href="#carta">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+    <span data-i18n="mbMenu">La carta</span>
+  </a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Trattoria+Sostanza+Via+del+Porcellana+25R+Firenze" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+    <span data-i18n="mbDir">Indicazioni</span>
+  </a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
